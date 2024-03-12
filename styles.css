@@ -113,4 +113,11 @@ footer {
     padding: 10px; /* Espaciado interno */
     border-radius: 10px; /* Esquinas redondeadas */
 }
+/*--------------------------------------------------------------------------*/
+/* Estilos CSS para la imagen en el encabezado */
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+
 
