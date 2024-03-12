@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cambiado a gris oscuro */
+}
+
+header {
+    background-color: #444; /* Cambiado a gris más oscuro */
+    color: #fff;/*letra titulo*/
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Añadido */
+}
+
+#toggleMenu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #444; /* Cambiado a gris más oscuro */
+    color: #fff; /* Cambiado a blanco */
+    border: none; /* Añadido */
+    padding: 10px 20px; /* Añadido */
+    cursor: pointer; /* Añadido */
+    transition: background-color 0.3s ease; /* Añadido */
+}
+
+nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #444; /* Cambiado a gris más oscuro */
+    padding: 10px;
+    width: auto; /* Añadido */
+    transition: width 0.3s ease; /* Añadido */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        position: relative;
+    }
+
+    #toggleMenu {
+        display: block;
+        width: auto; /* Añadido */
+    }
+
+    nav {
+        width: 200px;
+    }
+}
+
+/* Establecer el ancho del botón Menú para que coincida con el menú desplegado */
+#toggleMenu.expanded {
+    background-color: #333; /* Cambiado a gris más oscuro */
+}
+
+nav.active {
+    display: block;
+    width: 200px; /* Ancho del menú desplegado */
+}
+/*----------------------------------------------------------------*/
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+.footer-container {
+    display: flex; /* Usamos flexbox para organizar los elementos del footer */
+    justify-content: space-between; /* Distribución de los elementos */
+}
+
+.brand-logo img {
+    max-width: 100px; /* Ancho máximo del logo de la marca */
+}
+
+.about,
+.contact-info {
+    flex-basis: 30%; /* Ancho base de cada sección */
+}
+
+.social-media-icons img {
+    width: 30px; /* Tamaño de las imágenes de redes sociales */
+    margin-right: 10px; /* Espaciado entre las imágenes */
+}
+/*-----------------------------------------------------------------------*/
+.subtitulo {
+    background-color: #294BA6 ; /* Fondo morado */
+    padding: 20px; /* Espaciado interno */
+    color: #fff; /* Color del texto */
+    border-radius: 10px; /* Esquinas redondeadas */
+    margin: 20px; /* Separación del borde de la pantalla */
+}
+
+.texto-morado {
+    background-color: #7d46ad; /* Fondo morado más oscuro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
