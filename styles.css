@@ -158,3 +158,37 @@ footer {
     border-radius: 8px; /* Esquinas redondeadas */
     margin-top: 20px; /* Margen superior */
 }
+/*---------------formulario-------------------------*/
+/* Estilos para el formulario */
+#formulario {
+    background-color: #5790AB; /* Color de fondo del formulario */
+    padding: 20px;
+    margin: 0px auto;
+    max-width: auto; /* Ancho máximo del formulario */
+    border-radius: 10px;
+}
+
+/* Estilos para las cajas de entrada de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 3px solid #9CCDDB;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
