@@ -20,6 +20,24 @@
             <li><a href="opCont.html">Contacto</a></li>
         </ul>
     </nav>
+    <div id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="Nom_form">Nombre:</label>
+            <input type="text" name="name_form" placeholder="Ingrese su nombre completo">
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Ingrese su correo electrónico">
+            
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" placeholder="Ingrese el motivo del contacto">
+            
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" rows="5" cols="15" placeholder="Ingrese lo que solicita"></textarea>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
 
     <!-- Contenido principal de la página -->
 
